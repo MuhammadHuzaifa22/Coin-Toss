@@ -1,0 +1,68 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+ margin-top: 100px;
+}
+.buttons_sec{
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.buttons_sec button{
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background: #000;
+    color: white;
+}
+h1{
+    font-size: 80px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-image: url(./Images/pexels-eberhardgross-2088208.jpg);
+    background-size: cover;
+}
+
+#startbtn{
+background: red;
+padding: 15px 25px;
+
+}
+#stopbtn{
+    background: green;
+    padding: 15px 25px;
+
+}
+#resetbtn{
+    background: blue;
+    padding: 15px 25px;
+
+}
+#startbtn:hover{
+    background: maroon;
+    font-size: 25;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    border: 2px solid white;
+    letter-spacing: 2px;
+}
+#stopbtn:hover{
+    background: lightgreen;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    letter-spacing: 2px;
+}
+#resetbtn:hover{
+    background: skyblue;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid  red;
+    letter-spacing: 2px;
+}
